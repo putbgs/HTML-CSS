@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #222831;
+}
+
+.wrapper {
+    width: 75%;
+    margin: auto;
+}
+
+.content {
+    margin-top: 1%;
+}
+
+header h1 {
+    margin-left: 10%;
+    padding-top: 2.5%;
+    color: #eeeeee;
+}
+
+header img {
+    width: 90px;
+    float: left;
+}
+
+nav {
+    clear: both;
+    border-bottom: 2px solid #00adb5;
+    border-right: 2px solid #00adb5;
+    border-left: 2px solid #00adb5;
+}
+
+section {
+    margin-top: 2%;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 4%;
+    color: #eeeeee;
+}
+
+section h2 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: #eeeeee;
+}
+
+section h3 {
+    color: #eeeeee;
+}
+
+section p {
+    margin-top: 2%;
+    color: #eeeeee;
+    padding: 2%;
+    background-color: #393e46;
+    border-bottom: 2px solid #00adb5;
+    border-right: 2px solid #00adb5;
+    border-left: 2px solid #00adb5;
+}
+
+section img {
+    width: 250px;
+}
+
+section a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #00adb5;
+}
+
+section a:visited {
+    color: #eeeeee;
+}
+
+#iemge {
+    margin-left: 3%;
+}
+
+footer {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #eeeeee;
+}
+
+fieldset {
+    color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #393e46;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ul li {
+    color: #eeeeee;
+    background: #393e46;
+    display: inline-block;
+    border: 1px #00adb5;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a {
+    color: #eeeeee;
+}
+
+ul li:hover {
+    background: #00adb5;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: #393e46;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+#homeword {
+    text-align: center;
+    margin-top: 4%;
+}
+
+#top {
+    color: #eeeeee;
+    background: #393e46;
+    padding: 1%;
+    border-bottom: 2px solid #00adb5;
+}
+
+#top:hover {
+    color: #00adb5;
+    background: #393e46;
+}
+
+#top:visited {
+    color: #eeeeee;
+    background: #393e46;
+}

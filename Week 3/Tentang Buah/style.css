@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #daf1f9;
+}
+
+.content {
+    margin-top: 2%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+header img {
+    width: 75px;
+    float: left;
+}
+
+header h1 {
+    margin-left: 8%;
+    color: slateblue;
+}
+
+nav {
+    clear: both;
+}
+
+nav ul {
+    margin-top: 4%;
+}
+
+section {
+    margin-top: 2%;
+}
+
+section img {
+    width: 150px;
+    margin-top: 1%;
+}
+
+section ol {
+    margin-top: 1%;
+}
+
+section h2 {
+    margin-top: 1%;
+}
+
+footer {
+    margin: 2%;
+    text-align: center;
+}
+
+section p {
+    margin-top: 1%;
+}
+
+#fruitsdef {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.lorem {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #f69e7b;
+    background-color: #383e56;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #6e5773;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+ul li {
+    color: #f3f3f3;
+    background: #6e5773;
+    border: 1px whitesmoke;
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a {
+    color: #f3f3f3;
+}
+
+ul li:hover {
+    background: #d45079;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: #6e5773;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: #e1e1e9;
+    }
+}

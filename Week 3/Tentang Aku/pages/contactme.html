@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>About Me - Contact Me</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header>
+                <img src="../images/Unyanyaka.png" alt="">
+                <h1>About Me</h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="activities.html">Activities</a>
+                            <ul>
+                                <li><a href="activities.html">Hobbies</a></li>
+                                <li><a href="activities.html">School</a></li>
+                                <li><a href="activities.html">Dream</a></li>
+                                <li><a href="activities.html">Next 10 Years</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contactme.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <h1>Contact Me</h1>
+                <h3>Leave your form here, I'll contact you</h3>
+                <br>
+                <form action="../index.html" method="GET">
+                    <fieldset>
+                        <legend>Contact</legend>
+                        <label for="name">Name : </label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name Here"
+                            required
+                        >
+                        <br><br>
+                        <label for="no">Contact Number : </label>
+                        <input
+                            type="tel"
+                            name="no"
+                            id="no"
+                            pattern="[0-9]{12}"
+                            placeholder="12 Numbers"
+                            required
+                        >
+                        <br><br>
+                        <label for="address">Address : </label>
+                        <input
+                            type="text"
+                            name="address"
+                            id="address"
+                            required
+                        >
+                        <br><br>
+                        Pick Gender :
+                        <br>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label> <br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label> <br>
+                        <input type="radio" id="rather" name="gender" value="rather">
+                        <label for="rather">Rather not say</label> <br> <br>
+                        <input type="submit" value="submit">
+                    </fieldset>
+                </form>
+                <br> <br>
+            </section>
+            <footer>
+                <p>
+                    <i class="fa fa-copyright" aria-hidden="true">
+                        Created by: putubagusokapa@gmail.com
+                    </i>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
